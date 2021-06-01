@@ -1,7 +1,3 @@
-# Friday Night Funkin': Kade Engine
-## Friday Night Funkin'
-**Friday Night Funkin'** is a rhythm game originally made for Ludum Dare 47 "Stuck In a Loop".
-
 This repository fork is here for the purpose of supplying the source code for the V.S Ashtoreth mod. 
 
 All below information has been kept from the original Kade Engine readme in case it is needed!
