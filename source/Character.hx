@@ -495,6 +495,23 @@ class Character extends FlxSprite
 				addOffset("singDOWN-alt", -30, -27);
 
 				playAnim('idle');
+				
+			case 'ash':
+				tex = Paths.getSparrowAtlas('characters/Ash');
+				frames = tex;
+				animation.addByPrefix('idle', 'Ash Idle', 24);
+				animation.addByPrefix('singUP', 'Ash Up', 24);
+				animation.addByPrefix('singRIGHT', 'Ash Right', 24);
+				animation.addByPrefix('singDOWN', 'Ash Down', 24);
+				animation.addByPrefix('singLEFT', 'Ash Left', 24);
+
+				addOffset('idle', 150, 65);
+				addOffset("singUP", 170, 65);
+				addOffset("singRIGHT", 37, 17);
+				addOffset("singLEFT", 141, 39);
+				addOffset("singDOWN", 138, -20);
+
+				playAnim('idle');
 		}
 
 		dance();

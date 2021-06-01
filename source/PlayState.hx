@@ -335,6 +335,8 @@ class PlayState extends MusicBeatState
 				dialogue = CoolUtil.coolTextFile(Paths.txt('roses/rosesDialogue'));
 			case 'thorns':
 				dialogue = CoolUtil.coolTextFile(Paths.txt('thorns/thornsDialogue'));
+			case 'stylish sacrifice':
+				dialogue = CoolUtil.coolTextFile(Paths.txt('stylish sacrifice/dialogue'));
 		}
 
 		switch(SONG.stage)
@@ -661,6 +663,18 @@ class PlayState extends MusicBeatState
 								add(waveSpriteFG);
 						*/
 			}
+			case 'RealityBend':
+				{
+					defaultCamZoom = 0.7;
+					curStage = 'RealityBend';
+					var bg:FlxSprite = new FlxSprite(-650, -440);
+					bg.loadGraphic(Paths.image('background/ashbgc'));
+					add(bg);
+					bg.active = false;
+					bg.updateHitbox();
+					bg.antialiasing = true;
+					bg.scrollFactor.set(0.9, 0.9);
+				}
 			case 'stage':
 				{
 						defaultCamZoom = 0.9;
@@ -756,6 +770,9 @@ class PlayState extends MusicBeatState
 				dad.y += 130;
 			case 'dad':
 				camPos.x += 400;
+			case 'ash':
+				camPos.x += 400;
+				dad.y -= 100;
 			case 'pico':
 				camPos.x += 600;
 				dad.y += 300;
@@ -796,6 +813,11 @@ class PlayState extends MusicBeatState
 			case 'mallEvil':
 				boyfriend.x += 320;
 				dad.y -= 80;
+				
+			case 'RealityBend':
+				boyfriend.x -= -150;
+				gf.y -= 150;
+				
 			case 'school':
 				boyfriend.x += 200;
 				boyfriend.y += 220;
@@ -1025,6 +1047,8 @@ class PlayState extends MusicBeatState
 					FlxG.sound.play(Paths.sound('ANGRY'));
 					schoolIntro(doof);
 				case 'thorns':
+					schoolIntro(doof);
+				case 'stylish sacrifice':
 					schoolIntro(doof);
 				default:
 					startCountdown();
