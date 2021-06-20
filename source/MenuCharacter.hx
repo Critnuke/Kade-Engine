@@ -42,7 +42,7 @@ class MenuCharacter extends FlxSprite
 		animation.addByPrefix('bfConfirm', 'BF HEY!!', 24, false);
 		animation.addByPrefix('gf', "GF Dancing Beat WHITE", 24);
 		animation.addByPrefix('ash', "AshL", 24);
-
+		
 		setGraphicSize(Std.int(width * scale));
 		updateHitbox();
 	}

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="speech-bubble-talking.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="BubbleNormal0000" x="0" y="0" width="1686" height="370"/>
+	<SubTexture name="BubbleNormal0001" x="0" y="0" width="1686" height="370"/>
+	<SubTexture name="BubbleNormal0002" x="0" y="0" width="1686" height="370"/>
+	<SubTexture name="BubbleNormal0003" x="0" y="0" width="1686" height="370"/>
+	<SubTexture name="BubbleNormal0004" x="0" y="0" width="1686" height="370"/>
+	<SubTexture name="BubbleNormal0005" x="0" y="0" width="1686" height="370"/>
+	<SubTexture name="BubbleNormal0006" x="0" y="0" width="1686" height="370"/>
+	<SubTexture name="BubbleNormal0007" x="0" y="0" width="1686" height="370"/>
+	<SubTexture name="BubbleNormal0008" x="0" y="0" width="1686" height="370"/>
+	<SubTexture name="BubbleNormal0009" x="0" y="0" width="1686" height="370"/>
+	<SubTexture name="BubbleOpen0000" x="1143" y="1063" width="435" height="195" frameX="-610" frameY="-86" frameWidth="1728" frameHeight="349"/>
+	<SubTexture name="BubbleOpen0001" x="1143" y="1063" width="435" height="195" frameX="-610" frameY="-86" frameWidth="1728" frameHeight="349"/>
+	<SubTexture name="BubbleOpen0002" x="0" y="1063" width="1143" height="310" frameX="-252" frameY="-13" frameWidth="1728" frameHeight="349"/>
+	<SubTexture name="BubbleOpen0003" x="0" y="1063" width="1143" height="310" frameX="-252" frameY="-13" frameWidth="1728" frameHeight="349"/>
+	<SubTexture name="BubbleOpen0004" x="0" y="714" width="1585" height="349" frameX="-88" frameY="0" frameWidth="1728" frameHeight="349"/>
+	<SubTexture name="BubbleOpen0005" x="0" y="714" width="1585" height="349" frameX="-88" frameY="0" frameWidth="1728" frameHeight="349"/>
+	<SubTexture name="BubbleOpen0006" x="0" y="370" width="1728" height="344" frameX="0" frameY="-3" frameWidth="1728" frameHeight="349"/>
+	<SubTexture name="BubbleOpen0007" x="0" y="370" width="1728" height="344" frameX="0" frameY="-3" frameWidth="1728" frameHeight="349"/>
+	<SubTexture name="BubbleOpen0008" x="0" y="370" width="1728" height="344" frameX="0" frameY="-3" frameWidth="1728" frameHeight="349"/>
+	<SubTexture name="BubbleOpen0009" x="0" y="370" width="1728" height="344" frameX="0" frameY="-3" frameWidth="1728" frameHeight="349"/>
+</TextureAtlas>

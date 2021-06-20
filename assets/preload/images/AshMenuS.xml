@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="AshMenuS.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="AshMenuS0000" x="0" y="0" width="587" height="715" frameX="0" frameY="-13" frameWidth="587" frameHeight="730"/>
+	<SubTexture name="AshMenuS0001" x="0" y="0" width="587" height="715" frameX="0" frameY="-13" frameWidth="587" frameHeight="730"/>
+	<SubTexture name="AshMenuS0002" x="0" y="715" width="579" height="722" frameX="-4" frameY="-8" frameWidth="587" frameHeight="730"/>
+	<SubTexture name="AshMenuS0003" x="0" y="715" width="579" height="722" frameX="-4" frameY="-8" frameWidth="587" frameHeight="730"/>
+	<SubTexture name="AshMenuS0004" x="1154" y="724" width="575" height="713" frameX="-6" frameY="-13" frameWidth="587" frameHeight="730"/>
+	<SubTexture name="AshMenuS0005" x="1154" y="724" width="575" height="713" frameX="-6" frameY="-13" frameWidth="587" frameHeight="730"/>
+	<SubTexture name="AshMenuS0006" x="579" y="715" width="575" height="726" frameX="-6" frameY="0" frameWidth="587" frameHeight="730"/>
+	<SubTexture name="AshMenuS0007" x="579" y="715" width="575" height="726" frameX="-6" frameY="0" frameWidth="587" frameHeight="730"/>
+	<SubTexture name="AshMenuS0008" x="1154" y="0" width="575" height="724" frameX="-6" frameY="-2" frameWidth="587" frameHeight="730"/>
+	<SubTexture name="AshMenuS0009" x="1154" y="0" width="575" height="724" frameX="-6" frameY="-2" frameWidth="587" frameHeight="730"/>
+	<SubTexture name="AshMenuS0010" x="1154" y="0" width="575" height="724" frameX="-6" frameY="-2" frameWidth="587" frameHeight="730"/>
+	<SubTexture name="AshMenuS0011" x="1154" y="0" width="575" height="724" frameX="-6" frameY="-2" frameWidth="587" frameHeight="730"/>
+	<SubTexture name="AshMenuS0012" x="1154" y="0" width="575" height="724" frameX="-6" frameY="-2" frameWidth="587" frameHeight="730"/>
+	<SubTexture name="AshMenuS0013" x="1154" y="0" width="575" height="724" frameX="-6" frameY="-2" frameWidth="587" frameHeight="730"/>
+</TextureAtlas>

@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TextureAtlas imagePath="Portraits.png">
-	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="Portrait 2 instance 10000" x="0" y="542" width="406" height="255"/>
-	<SubTexture name="Portrait1 instance 10000" x="0" y="0" width="709" height="542"/>
+	<SubTexture name="Portrait 20000" x="1324" y="0" width="406" height="255"/>
+	<SubTexture name="Portrait10000" x="0" y="0" width="709" height="542"/>
+	<SubTexture name="Portrait30000" x="709" y="0" width="615" height="537"/>
 </TextureAtlas>

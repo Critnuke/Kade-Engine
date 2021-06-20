@@ -124,7 +124,7 @@ class Character extends FlxSprite
 
 			case 'dad':
 				// DAD ANIMATION LOADING CODE
-				tex = Paths.getSparrowAtlas('characters/DADDY_DEAREST');
+				tex = Paths.getSparrowAtlas('characters/DADDY_DEAREST', 'shared');
 				frames = tex;
 				animation.addByPrefix('idle', 'Dad idle dance', 24);
 				animation.addByPrefix('singUP', 'Dad Sing Note UP', 24);
@@ -267,8 +267,11 @@ class Character extends FlxSprite
 				flipX = true;
 
 			case 'bf':
-				var tex = Paths.getSparrowAtlas('characters/BOYFRIEND');
+				var tex = Paths.getSparrowAtlas('characters/BOYFRIEND', 'shared');
 				frames = tex;
+
+				trace(tex.frames.length);
+
 				animation.addByPrefix('idle', 'BF idle dance', 24, false);
 				animation.addByPrefix('singUP', 'BF NOTE UP0', 24, false);
 				animation.addByPrefix('singLEFT', 'BF NOTE LEFT0', 24, false);
@@ -512,6 +515,24 @@ class Character extends FlxSprite
 				addOffset("singDOWN", 138, -20);
 
 				playAnim('idle');
+				
+			case 'ashmad':
+				tex = Paths.getSparrowAtlas('characters/AshAngry');
+				frames = tex;
+				animation.addByPrefix('idle', 'Ash2Idle', 24);
+				animation.addByPrefix('singUP', 'Ash2Up', 24);
+				animation.addByPrefix('singRIGHT', 'Ash2Right', 24);
+				animation.addByPrefix('singDOWN', 'Ash2Down', 24);
+				animation.addByPrefix('singLEFT', 'Ash2Left', 24);
+
+				addOffset('idle', 160, 66);
+				addOffset("singUP", 210, 65);
+				addOffset("singRIGHT", 137, 17);
+				addOffset("singLEFT", 254, 28);
+				addOffset("singDOWN", 178, -10);
+
+				playAnim('idle');
+				
 		}
 
 		dance();
@@ -554,6 +575,7 @@ class Character extends FlxSprite
 				dadVar = 6.1;
 			if (holdTimer >= Conductor.stepCrochet * dadVar * 0.001)
 			{
+				trace('dance');
 				dance();
 				holdTimer = 0;
 			}

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="AshlogoBumpin.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="AshlogoBumpin0000" x="755" y="563" width="696" height="547" frameX="-29" frameY="-23" frameWidth="755" frameHeight="594"/>
+	<SubTexture name="AshlogoBumpin0001" x="755" y="563" width="696" height="547" frameX="-29" frameY="-23" frameWidth="755" frameHeight="594"/>
+	<SubTexture name="AshlogoBumpin0002" x="755" y="0" width="716" height="563" frameX="-19" frameY="-15" frameWidth="755" frameHeight="594"/>
+	<SubTexture name="AshlogoBumpin0003" x="755" y="0" width="716" height="563" frameX="-19" frameY="-15" frameWidth="755" frameHeight="594"/>
+	<SubTexture name="AshlogoBumpin0004" x="0" y="0" width="755" height="594"/>
+	<SubTexture name="AshlogoBumpin0005" x="0" y="0" width="755" height="594"/>
+	<SubTexture name="AshlogoBumpin0006" x="755" y="563" width="696" height="547" frameX="-29" frameY="-23" frameWidth="755" frameHeight="594"/>
+	<SubTexture name="AshlogoBumpin0007" x="755" y="563" width="696" height="547" frameX="-29" frameY="-23" frameWidth="755" frameHeight="594"/>
+	<SubTexture name="AshlogoBumpin0008" x="0" y="594" width="681" height="535" frameX="-37" frameY="-29" frameWidth="755" frameHeight="594"/>
+	<SubTexture name="AshlogoBumpin0009" x="0" y="594" width="681" height="535" frameX="-37" frameY="-29" frameWidth="755" frameHeight="594"/>
+	<SubTexture name="AshlogoBumpin0010" x="755" y="563" width="696" height="547" frameX="-29" frameY="-23" frameWidth="755" frameHeight="594"/>
+	<SubTexture name="AshlogoBumpin0011" x="755" y="563" width="696" height="547" frameX="-29" frameY="-23" frameWidth="755" frameHeight="594"/>
+	<SubTexture name="AshlogoBumpin0012" x="755" y="563" width="696" height="547" frameX="-28" frameY="-23" frameWidth="755" frameHeight="594"/>
+	<SubTexture name="AshlogoBumpin0013" x="755" y="563" width="696" height="547" frameX="-28" frameY="-23" frameWidth="755" frameHeight="594"/>
+	<SubTexture name="AshlogoBumpin0014" x="755" y="563" width="696" height="547" frameX="-28" frameY="-23" frameWidth="755" frameHeight="594"/>
+	<SubTexture name="AshlogoBumpin0015" x="755" y="563" width="696" height="547" frameX="-28" frameY="-23" frameWidth="755" frameHeight="594"/>
+</TextureAtlas>

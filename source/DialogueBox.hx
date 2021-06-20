@@ -46,7 +46,10 @@ class DialogueBox extends FlxSpriteGroup
 			case 'thorns':
 				FlxG.sound.playMusic(Paths.music('LunchboxScary'), 0);
 				FlxG.sound.music.fadeIn(1, 0, 0.8);
-			case 'stylish sacrifice':
+			case 'stylish-sacrifice':
+				FlxG.sound.playMusic(Paths.music('LunchboxScary'), 0);
+				FlxG.sound.music.fadeIn(1, 0, 0.8);
+			case 'ticket-to-tartarus':
 				FlxG.sound.playMusic(Paths.music('LunchboxScary'), 0);
 				FlxG.sound.music.fadeIn(1, 0, 0.8);
 		}
@@ -93,7 +96,16 @@ class DialogueBox extends FlxSpriteGroup
 				
 			case 'stylish sacrifice':
 				hasDialog = true;
-				box.frames = Paths.getSparrowAtlas('speech_bubble_talking');
+				box.frames = Paths.getSparrowAtlas('speech-bubble-talking');
+				box.animation.addByPrefix('normalOpen', 'BubbleOpen', 24, false);
+				box.animation.addByIndices('normal', 'BubbleNormal', [4], "", 24);
+				box.setGraphicSize(Std.int(FlxG.width * 0.9), Std.int(FlxG.height * 0.3));
+				box.x = -90;
+				box.y = 450;
+				
+			case 'ticket to tartarus':
+				hasDialog = true;
+				box.frames = Paths.getSparrowAtlas('speech-bubble-talking');
 				box.animation.addByPrefix('normalOpen', 'BubbleOpen', 24, false);
 				box.animation.addByIndices('normal', 'BubbleNormal', [4], "", 24);
 				box.setGraphicSize(Std.int(FlxG.width * 0.9), Std.int(FlxG.height * 0.3));
@@ -106,6 +118,8 @@ class DialogueBox extends FlxSpriteGroup
 		if (!hasDialog)
 			return;
 		
+		if (PlayState.SONG.song.toLowerCase() == 'stylish sacrifice')
+		{
 		portraitLeft = new FlxSprite(-30, -85);
 		portraitLeft.frames = Paths.getSparrowAtlas('Portraits');
 		portraitLeft.animation.addByPrefix('enter', 'Portrait1', 24, false);
@@ -114,6 +128,18 @@ class DialogueBox extends FlxSpriteGroup
 		portraitLeft.scrollFactor.set();
 		add(portraitLeft);
 		portraitLeft.visible = false;
+		}
+		if (PlayState.SONG.song.toLowerCase() == 'ticket to tartarus')
+		{
+		portraitLeft = new FlxSprite(-30, -75);
+		portraitLeft.frames = Paths.getSparrowAtlas('Portraits');
+		portraitLeft.animation.addByPrefix('enter', 'Portrait3', 24, false);
+		//portraitLeft.setGraphicSize(Std.int(portraitLeft.width * PlayState.daPixelZoom * 0.9));
+		portraitLeft.updateHitbox();
+		portraitLeft.scrollFactor.set();
+		add(portraitLeft);
+		portraitLeft.visible = false;
+		}
 
 		portraitRight = new FlxSprite(800, 210);
 		portraitRight.frames = Paths.getSparrowAtlas('Portraits');

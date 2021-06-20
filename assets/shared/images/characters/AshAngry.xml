@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="AshAngry.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Ash2Down0000" x="2948" y="1840" width="560" height="877" frameX="-7" frameY="-5" frameWidth="568" frameHeight="885"/>
+	<SubTexture name="Ash2Down0001" x="2948" y="1840" width="560" height="877" frameX="-7" frameY="-5" frameWidth="568" frameHeight="885"/>
+	<SubTexture name="Ash2Down0002" x="2936" y="0" width="562" height="882" frameX="-6" frameY="0" frameWidth="568" frameHeight="885"/>
+	<SubTexture name="Ash2Down0003" x="2936" y="0" width="562" height="882" frameX="-6" frameY="0" frameWidth="568" frameHeight="885"/>
+	<SubTexture name="Ash2Down0004" x="3501" y="2717" width="560" height="874" frameX="-7" frameY="-8" frameWidth="568" frameHeight="885"/>
+	<SubTexture name="Ash2Down0005" x="3501" y="2717" width="560" height="874" frameX="-7" frameY="-8" frameWidth="568" frameHeight="885"/>
+	<SubTexture name="Ash2Down0006" x="3508" y="1810" width="555" height="866" frameX="-1" frameY="-19" frameWidth="568" frameHeight="885"/>
+	<SubTexture name="Ash2Down0007" x="3508" y="1810" width="555" height="866" frameX="-1" frameY="-19" frameWidth="568" frameHeight="885"/>
+	<SubTexture name="Ash2Down0008" x="2955" y="935" width="558" height="875" frameX="0" frameY="-10" frameWidth="568" frameHeight="885"/>
+	<SubTexture name="Ash2Down0009" x="2955" y="935" width="558" height="875" frameX="0" frameY="-10" frameWidth="568" frameHeight="885"/>
+	<SubTexture name="Ash2Down0010" x="3513" y="935" width="555" height="866" frameX="-1" frameY="-19" frameWidth="568" frameHeight="885"/>
+	<SubTexture name="Ash2Down0011" x="3513" y="935" width="555" height="866" frameX="-1" frameY="-19" frameWidth="568" frameHeight="885"/>
+	<SubTexture name="Ash2Idle0000" x="0" y="0" width="602" height="979" frameX="-2" frameY="-3" frameWidth="605" frameHeight="985"/>
+	<SubTexture name="Ash2Idle0001" x="0" y="0" width="602" height="979" frameX="-2" frameY="-3" frameWidth="605" frameHeight="985"/>
+	<SubTexture name="Ash2Idle0002" x="601" y="979" width="601" height="973" frameX="-3" frameY="-9" frameWidth="605" frameHeight="985"/>
+	<SubTexture name="Ash2Idle0003" x="601" y="979" width="601" height="973" frameX="-3" frameY="-9" frameWidth="605" frameHeight="985"/>
+	<SubTexture name="Ash2Idle0004" x="0" y="1959" width="604" height="975" frameX="0" frameY="-7" frameWidth="605" frameHeight="985"/>
+	<SubTexture name="Ash2Idle0005" x="0" y="1959" width="604" height="975" frameX="0" frameY="-7" frameWidth="605" frameHeight="985"/>
+	<SubTexture name="Ash2Idle0006" x="0" y="979" width="601" height="980" frameX="-4" frameY="-2" frameWidth="605" frameHeight="985"/>
+	<SubTexture name="Ash2Idle0007" x="0" y="979" width="601" height="980" frameX="-4" frameY="-2" frameWidth="605" frameHeight="985"/>
+	<SubTexture name="Ash2Idle0008" x="0" y="2934" width="596" height="985" frameX="-5" frameY="0" frameWidth="605" frameHeight="985"/>
+	<SubTexture name="Ash2Idle0009" x="0" y="2934" width="596" height="985" frameX="-5" frameY="0" frameWidth="605" frameHeight="985"/>
+	<SubTexture name="Ash2Idle0010" x="596" y="2934" width="595" height="985" frameX="-6" frameY="0" frameWidth="605" frameHeight="985"/>
+	<SubTexture name="Ash2Idle0011" x="596" y="2934" width="595" height="985" frameX="-6" frameY="0" frameWidth="605" frameHeight="985"/>
+	<SubTexture name="Ash2Left0000" x="1202" y="961" width="587" height="928" frameX="0" frameY="0" frameWidth="595" frameHeight="928"/>
+	<SubTexture name="Ash2Left0001" x="1202" y="961" width="587" height="928" frameX="0" frameY="0" frameWidth="595" frameHeight="928"/>
+	<SubTexture name="Ash2Left0002" x="2352" y="0" width="584" height="923" frameX="-1" frameY="-5" frameWidth="595" frameHeight="928"/>
+	<SubTexture name="Ash2Left0003" x="2352" y="0" width="584" height="923" frameX="-1" frameY="-5" frameWidth="595" frameHeight="928"/>
+	<SubTexture name="Ash2Left0004" x="2380" y="923" width="575" height="917" frameX="-18" frameY="-11" frameWidth="595" frameHeight="928"/>
+	<SubTexture name="Ash2Left0005" x="2380" y="923" width="575" height="917" frameX="-18" frameY="-11" frameWidth="595" frameHeight="928"/>
+	<SubTexture name="Ash2Left0006" x="2369" y="1842" width="579" height="923" frameX="-16" frameY="-5" frameWidth="595" frameHeight="928"/>
+	<SubTexture name="Ash2Left0007" x="2369" y="1842" width="579" height="923" frameX="-16" frameY="-5" frameWidth="595" frameHeight="928"/>
+	<SubTexture name="Ash2Left0008" x="2922" y="2765" width="579" height="922" frameX="-16" frameY="-6" frameWidth="595" frameHeight="928"/>
+	<SubTexture name="Ash2Left0009" x="2922" y="2765" width="579" height="922" frameX="-16" frameY="-6" frameWidth="595" frameHeight="928"/>
+	<SubTexture name="Ash2Right0000" x="1764" y="0" width="588" height="926" frameX="-6" frameY="0" frameWidth="594" frameHeight="926"/>
+	<SubTexture name="Ash2Right0001" x="1764" y="0" width="588" height="926" frameX="-6" frameY="0" frameWidth="594" frameHeight="926"/>
+	<SubTexture name="Ash2Right0002" x="1191" y="2874" width="590" height="921" frameX="-3" frameY="-5" frameWidth="594" frameHeight="926"/>
+	<SubTexture name="Ash2Right0003" x="1191" y="2874" width="590" height="921" frameX="-3" frameY="-5" frameWidth="594" frameHeight="926"/>
+	<SubTexture name="Ash2Right0004" x="1778" y="1889" width="591" height="916" frameX="0" frameY="-10" frameWidth="594" frameHeight="926"/>
+	<SubTexture name="Ash2Right0005" x="1778" y="1889" width="591" height="916" frameX="0" frameY="-10" frameWidth="594" frameHeight="926"/>
+	<SubTexture name="Ash2Right0006" x="1184" y="1952" width="594" height="922" frameX="0" frameY="-4" frameWidth="594" frameHeight="926"/>
+	<SubTexture name="Ash2Right0007" x="1184" y="1952" width="594" height="922" frameX="0" frameY="-4" frameWidth="594" frameHeight="926"/>
+	<SubTexture name="Ash2Right0008" x="1789" y="926" width="591" height="916" frameX="0" frameY="-10" frameWidth="594" frameHeight="926"/>
+	<SubTexture name="Ash2Right0009" x="1789" y="926" width="591" height="916" frameX="0" frameY="-10" frameWidth="594" frameHeight="926"/>
+	<SubTexture name="Ash2Up0000" x="1184" y="0" width="580" height="961" frameX="-1" frameY="-4" frameWidth="585" frameHeight="965"/>
+	<SubTexture name="Ash2Up0001" x="1184" y="0" width="580" height="961" frameX="-1" frameY="-4" frameWidth="585" frameHeight="965"/>
+	<SubTexture name="Ash2Up0002" x="602" y="0" width="582" height="965" frameX="0" frameY="0" frameWidth="585" frameHeight="965"/>
+	<SubTexture name="Ash2Up0003" x="602" y="0" width="582" height="965" frameX="0" frameY="0" frameWidth="585" frameHeight="965"/>
+	<SubTexture name="Ash2Up0004" x="604" y="1952" width="580" height="956" frameX="-1" frameY="-4" frameWidth="585" frameHeight="965"/>
+	<SubTexture name="Ash2Up0005" x="604" y="1952" width="580" height="956" frameX="-1" frameY="-4" frameWidth="585" frameHeight="965"/>
+	<SubTexture name="Ash2Up0006" x="1781" y="2805" width="571" height="946" frameX="-14" frameY="-14" frameWidth="585" frameHeight="965"/>
+	<SubTexture name="Ash2Up0007" x="1781" y="2805" width="571" height="946" frameX="-14" frameY="-14" frameWidth="585" frameHeight="965"/>
+	<SubTexture name="Ash2Up0008" x="2352" y="2805" width="570" height="943" frameX="-14" frameY="-17" frameWidth="585" frameHeight="965"/>
+	<SubTexture name="Ash2Up0009" x="2352" y="2805" width="570" height="943" frameX="-14" frameY="-17" frameWidth="585" frameHeight="965"/>
+	<SubTexture name="Ash2Up0010" x="3501" y="0" width="563" height="935" frameX="-18" frameY="-25" frameWidth="585" frameHeight="965"/>
+	<SubTexture name="Ash2Up0011" x="3501" y="0" width="563" height="935" frameX="-18" frameY="-25" frameWidth="585" frameHeight="965"/>
+</TextureAtlas>
